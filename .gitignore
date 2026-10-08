@@ -1,20 +1,13 @@
-# Python
-venv/
-__pycache__/
-*.pyc
-
-# Node
-node_modules/
-dist/
-dist.zip
-
-# macOS
+# OS generated files
 .DS_Store
 
-# Environment files
-.env
-.env.*
+# Databases
+*.db
+*.sqlite
+*.sqlite3
 
-# Editors
-.vscode/
-.idea/
+# Archives and build artifacts
+*.zip
+dist/
+node_modules/
+__pycache__/
